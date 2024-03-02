@@ -5,7 +5,7 @@ import { Instagram } from "iconsax-react";
 function ContactLinks() {
   return (
     <div className=" h-fit w-full">
-      <div className=" text-white  gap-x-3 flex py-5 px-4">
+      <div className=" text-white justify-end  gap-x-3 flex py-5 px-4">
         <a
           href="tel:02122432330"
           rel="noreferrer"

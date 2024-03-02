@@ -27,7 +27,18 @@ function Slider({ focused }: sliderProps) {
         modifier: 2.5,
         slideShadows: false,
       }}
+      breakpoints={{
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+        1024: {
+          slidesPerView: 2.3,
+          spaceBetween: 90,
+        },
+      }}
       onActiveIndexChange={(e) => setActiveSlide(e.activeIndex)}
+      initialSlide={4}
       grabCursor={true}
       modules={[EffectCoverflow, Pagination]}
     >

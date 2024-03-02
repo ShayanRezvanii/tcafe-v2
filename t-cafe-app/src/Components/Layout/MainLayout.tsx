@@ -6,9 +6,7 @@ import BackgroundSection from "../Mobile/BackgroundSection";
 function MainLayout() {
   return (
     <div className=" w-full h-full  overflow-hidden fixed">
-      <div className=" block sm:hidden">
-        <BackgroundSection></BackgroundSection>
-      </div>
+      <BackgroundSection></BackgroundSection>
     </div>
   );
 }
