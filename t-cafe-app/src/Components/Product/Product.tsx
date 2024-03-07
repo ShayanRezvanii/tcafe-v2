@@ -8,9 +8,9 @@ export interface productProps {
 }
 function Product({ title, description, price, image }: productProps) {
   return (
-    <div className=" bg-lightbrown rounded-lg h-20 my-3 justify-end flex">
-      <div className=" bg-darkbrown h-20 w-28 rounded-br-lg rounded-tr-lg">
-        <img src={image} />
+    <div className=" bg-white rounded-lg h-20 my-3 justify-end flex shadow-lg">
+      <div className=" bg-darkbrown h-20 p-2 w-28 rounded-br-lg relative rounded-tr-lg">
+        <img src={image} className=" w-full h-full object-cover rounded-md" />
       </div>
       <div className=" flex justify-between w-full">
         <div className=" flex flex-col justify-center px-2 ">
@@ -19,7 +19,7 @@ function Product({ title, description, price, image }: productProps) {
           </h1>
           <p className=" text-right text-xs md:text-sm">{description}</p>
         </div>
-        <div className="  h-full justify-end flex text-sm flex-col text-darkbrown px-3 py-2 w-fit">
+        <div className="  h-full justify-end flex text-sm flex-col text-black px-3 py-2 w-fit">
           {price}T
         </div>
       </div>

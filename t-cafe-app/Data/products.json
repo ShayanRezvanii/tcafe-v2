@@ -5,7 +5,7 @@
       "items": [
         {
           "id": 10,
-          "name": "آفاگاتو",
+          "name": "آفوگاتو",
           "description": "اسپرسو و بستنی",
           "image": "",
           "price": 95
@@ -82,7 +82,7 @@
           "id": 1,
           "name": "اسپرسو",
           "description": "",
-          "image": "",
+          "image": "/public/ProductsImage/Coffe.jpg",
           "price": 89
         },
         {

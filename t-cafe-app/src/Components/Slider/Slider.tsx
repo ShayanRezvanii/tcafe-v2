@@ -44,9 +44,7 @@ function Slider({ focused }: sliderProps) {
     >
       <SwiperSlide
         className={` ${
-          activeSlide == 0
-            ? "bg-darkbrown text-lightbrown"
-            : " text-darkbrown bg-lightbrown"
+          activeSlide == 0 ? "bg-darkbrown text-black" : " text-black bg-white"
         } w-full text-lg   flex justify-center items-center h-14  text-center rounded-lg `}
       >
         دسر و شیرینی
@@ -54,9 +52,7 @@ function Slider({ focused }: sliderProps) {
 
       <SwiperSlide
         className={` ${
-          activeSlide == 1
-            ? "bg-darkbrown text-lightbrown"
-            : " text-darkbrown bg-lightbrown"
+          activeSlide == 1 ? "bg-darkbrown text-black" : " text-black bg-white"
         } w-full text-lg   flex justify-center items-center h-14  text-center rounded-lg `}
       >
         اسپرسو بار
@@ -64,9 +60,7 @@ function Slider({ focused }: sliderProps) {
 
       <SwiperSlide
         className={` ${
-          activeSlide == 2
-            ? "bg-darkbrown text-lightbrown"
-            : " text-darkbrown bg-lightbrown"
+          activeSlide == 2 ? "bg-darkbrown text-black" : " text-black bg-white"
         } w-full text-lg   flex justify-center items-center h-14  text-center rounded-lg  `}
       >
         ماکتیل
@@ -74,9 +68,7 @@ function Slider({ focused }: sliderProps) {
 
       <SwiperSlide
         className={` ${
-          activeSlide == 3
-            ? "bg-darkbrown text-lightbrown"
-            : " text-darkbrown bg-lightbrown"
+          activeSlide == 3 ? "bg-darkbrown text-black" : " text-black bg-white"
         } w-full text-lg   flex justify-center items-center h-14  text-center rounded-lg `}
       >
         چای و دمنوش
@@ -84,9 +76,7 @@ function Slider({ focused }: sliderProps) {
 
       <SwiperSlide
         className={` ${
-          activeSlide == 4
-            ? "bg-darkbrown text-lightbrown"
-            : " text-darkbrown bg-lightbrown"
+          activeSlide == 4 ? "bg-darkbrown text-black" : " text-black bg-white"
         } w-full text-lg   flex justify-center items-center h-14  text-center rounded-lg `}
       >
         آبمیوه طبیعی
@@ -94,9 +84,7 @@ function Slider({ focused }: sliderProps) {
 
       <SwiperSlide
         className={` ${
-          activeSlide == 5
-            ? "bg-darkbrown text-lightbrown"
-            : " text-darkbrown bg-lightbrown"
+          activeSlide == 5 ? "bg-darkbrown text-black" : " text-black bg-white"
         } w-full text-lg   flex justify-center items-center h-14  text-center rounded-lg  `}
       >
         شیک
@@ -104,9 +92,7 @@ function Slider({ focused }: sliderProps) {
 
       <SwiperSlide
         className={` ${
-          activeSlide == 6
-            ? "bg-darkbrown text-lightbrown"
-            : " text-darkbrown bg-lightbrown"
+          activeSlide == 6 ? "bg-darkbrown text-black" : " text-black bg-white"
         } w-full text-lg   flex justify-center items-center h-14  text-center rounded-lg `}
       >
         دمی بار
@@ -114,9 +100,7 @@ function Slider({ focused }: sliderProps) {
 
       <SwiperSlide
         className={` ${
-          activeSlide == 7
-            ? "bg-darkbrown text-lightbrown"
-            : " text-darkbrown bg-lightbrown"
+          activeSlide == 7 ? "bg-darkbrown text-black" : " text-black bg-white"
         } w-full text-lg   flex justify-center items-center h-14  text-center rounded-lg`}
       >
         نوشیدنی های گرم

@@ -10,11 +10,11 @@ function ContactLinks() {
           href="tel:02122432330"
           rel="noreferrer"
           target="_blank"
-          className=" cursor-pointer"
+          className=" cursor-pointer "
         >
           <Call
             size={24}
-            className=" text-lightbrown hover:text-darkbrown duration-200"
+            className=" text-white  hover:text-darkbrown duration-200"
           />
         </a>
         <a
@@ -25,7 +25,7 @@ function ContactLinks() {
         >
           <Location
             size={24}
-            className=" text-lightbrown hover:text-darkbrown duration-200"
+            className=" text-white hover:text-darkbrown duration-200"
           />
         </a>
         <a
@@ -36,7 +36,7 @@ function ContactLinks() {
         >
           <Instagram
             size={24}
-            className=" text-lightbrown hover:text-darkbrown duration-200"
+            className=" text-white hover:text-darkbrown duration-200"
           />
         </a>
       </div>

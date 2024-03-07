@@ -36,7 +36,7 @@ function BackgroundSection() {
         </div>
         <div className="  h-full md:w-full    min-h-[400px] max-h-screen overflow-y-scroll   ">
           <Products selectedCategory={activeSlide} />
-          <div className=" bg-gradient-to-t from-black  w-full h-20 absolute bottom-0 "></div>
+          {/* <div className=" bg-gradient-to-t from-black  w-full h-20 absolute bottom-0 "></div> */}
         </div>
       </div>
     </div>
