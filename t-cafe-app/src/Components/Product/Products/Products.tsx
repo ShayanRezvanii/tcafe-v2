@@ -19,7 +19,7 @@ function Products({ selectedCategory }: productProps) {
   console.log(findProduct);
 
   return (
-    <div className=" w-full flex flex-col sm:grid sm:grid-cols-2 sm:gap-4   xl:grid-cols-3 xl:gap-3 h-full sm:h-fit px-6 sm:px-0  ">
+    <div className="  w-full flex flex-col  sm:grid sm:grid-cols-2 sm:gap-4   xl:grid-cols-3 xl:gap-3 h-full sm:h-fit px-6  sm:px-0  ">
       {findProduct?.items.map((item, index) => {
         return (
           <motion.div
